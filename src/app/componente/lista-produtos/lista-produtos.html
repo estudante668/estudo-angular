@@ -1,0 +1,8 @@
+
+<div *ngFor="let p of produtos">
+  <h2>{{ p.nome }}</h2>
+  <p>Preço: {{ p.preco }}</p>
+  <p>Descrição: {{ p.descricao }}</p>
+  <img [src]="p.imagemUrl" alt="Imagem do produto">
+</div>
+
